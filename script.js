@@ -13,7 +13,7 @@ document.querySelector("#form")?.addEventListener("submit",e=>{
  "Ersatzteil: "+(f.get("teil")||"-"),
  "Telefonnummer: "+(f.get("telefon")||"-"),
  "Teilenummer / Angaben: "+(f.get("details")||"-")
- ].join("/n");
+ ].join("\n");
  window.open("https://wa.me/436677995349?text="+encodeURIComponent(msg),"_blank","noopener");
 });
 document.querySelector("#year").textContent=new Date().getFullYear();
