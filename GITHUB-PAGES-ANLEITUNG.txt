@@ -1,0 +1,17 @@
+ZJ ERSATZTEILE – GITHUB PAGES
+
+WICHTIG:
+1. Den INHALT dieses Ordners direkt ins GitHub-Repository kopieren.
+2. index.html muss im Hauptverzeichnis (Root) des Repositorys liegen.
+3. Den Ordner assets vollständig mit hochladen.
+4. GitHub: Settings -> Pages -> Deploy from a branch.
+5. Branch: main, Ordner: / (root).
+6. Speichern und einige Minuten warten.
+
+Die Bilder werden ausschließlich lokal aus dem assets-Ordner geladen.
+Keine externen Bildquellen sind erforderlich.
+
+Falls die Seite bereits über GitHub Pages läuft:
+- Repository öffnen
+- alle bisherigen Webdateien durch diese Dateien ersetzen
+- besonders darauf achten, dass assets/parts/ vollständig vorhanden ist.
